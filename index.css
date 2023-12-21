@@ -1,0 +1,25 @@
+body{
+    background-color: burlywood;
+}
+.content{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    column-gap: 30px;
+}
+.navigation{
+    background-color: rgb(114, 151, 114);
+    align-items: center;
+}
+.image{
+    height:60px;
+    width: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.image:hover{
+    height: 120px;
+    width: 120px;
+}
+h1{
+    display: inline-block;
+}
